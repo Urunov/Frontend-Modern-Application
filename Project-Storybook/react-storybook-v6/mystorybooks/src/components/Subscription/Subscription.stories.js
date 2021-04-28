@@ -10,7 +10,6 @@ export default {
 export const PrimarySubscription = () => (
     <>
      <Center>  <Large/>
-
         <Primary/>
      </Center>
     </>
