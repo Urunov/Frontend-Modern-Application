@@ -1,6 +1,7 @@
 import React from "react";
 import {Primary} from "../Button/Button.stories";
 import {Large} from "../Input/Input.stories";
+import Center from "../Center/Center";
 
 export default {
     title: "form/Subscription",
@@ -8,9 +9,9 @@ export default {
 
 export const PrimarySubscription = () => (
     <>
-        <Large/>
+     <Center>  <Large/>
 
         <Primary/>
-
+     </Center>
     </>
 )
