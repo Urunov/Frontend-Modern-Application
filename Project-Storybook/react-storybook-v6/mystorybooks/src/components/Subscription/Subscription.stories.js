@@ -5,7 +5,6 @@ import Center from "../Center/Center";
 export default {
     title: "form/Subscription",
 }
-
 export const PrimarySubscription = () => (
     <>
      <Center>  <Large/>
