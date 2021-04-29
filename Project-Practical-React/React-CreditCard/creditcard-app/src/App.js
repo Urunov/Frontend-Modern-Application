@@ -12,7 +12,6 @@ function App() {
   const[focus, setFocus] =useState('')
 
   return (
-
     <div className="App">
       <p>Card Data </p>
       <Cards
