@@ -3,7 +3,7 @@
 
 ## Frontend
  
- 1. Storybook  
+## 1. Storybook  
    * Storybook is a development environment and playground for UI components
    * Create cmomponents independently
    * Showcase those components interactively in an isolation developlment developed
@@ -20,15 +20,10 @@
    >> Create react app: [npx create-react-app my-app]
    
     >> Storybook v5: [npx -p @storybook/cli sb init] 
-    >> Storybook v6: [npx sb init]
- 
- 
-  3.2 React + TypeScript + Storybook
-  4.3 React + TypeScript + Material UI + Storybook
-    
+    >> Storybook v6: [npx sb init]  
  -----------
  
- 2. ReactJs
+ ## 2. ReactJs
  
    * React Fundamentals
      * [Icons](https://react-icons.github.io/react-icons/icons?name=md)
@@ -44,6 +39,8 @@
      * Tooltip
       >> YARN>> yarn add '@tippy.js/react'
      * [Credit-Card](https://github.com/amarofashion/react-credit-cards)  
+     ![Screen Shot 2021-04-29 at 6 21 12 PM](https://user-images.githubusercontent.com/11626327/116529255-b622ad80-a917-11eb-9c5e-769302b0b406.png)
+
       >> YARN >> yarn add react-credit-cards
       >> 
 
@@ -68,9 +65,9 @@
   
  
  
- 3. Typescript
- 4. MobX
- 5. Material-UI
+ ## 3. Typescript
+ ## 4. MobX
+ ## 5. Material-UI
  
  
 
