@@ -42,6 +42,15 @@
      ![Screen Shot 2021-04-29 at 6 21 12 PM](https://user-images.githubusercontent.com/11626327/116529255-b622ad80-a917-11eb-9c5e-769302b0b406.png)
 
       >> YARN >> yarn add react-credit-cards
+      * [MDX-DESC-Presentation](https://github.com/jxnblk/mdx-deck)
+      >> 
+      >> YARN>> yarn add -D mdx-deck
+      * [React-Player](https://github.com/cookpete/react-player)
+      >> YARN >> yarn add react-player
+      * [Loading](https://github.com/davidhu2000/react-spinners)
+      >> YARN >> yarn add react-spinners
+      * [Chart](https://github.com/reactchartjs/react-chartjs-2)
+      >> YARN >> yarn add react-chartjs-2 chart.js
       >> 
 
    * React Advanced Topics
