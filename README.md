@@ -23,9 +23,53 @@
     >> Storybook v6: [npx sb init]  
  -----------
  
- ## 2. ReactJs
+ # 2. ReactJs
  
-   * React Fundamentals
+   ##  React Fundamentals
+   * What is React ?
+       >> Open Source library for building user interfaces 
+       >> Not a framework
+       >> 
+       >> Rich ecosystem
+       >> 
+       >> ES6 - let&const, arrow functions, template literals, default parameters, object literals, rest and spread operators and destructing assignment.
+       >> 
+       >> npx is npm package runner
+       >> 
+       >> Document Object Module(DOM)
+          
+       | MSA  |  SPA | 
+       | :---        |    :----:   |   
+       | Multi-Page Application | Single-Page Appication|  
+       
+       
+       
+       >> Functional Components / Class Components
+       
+       | Functional Components  | Class Components | 
+       | :---        |    :----:   |   
+       | Simple Functions  | More feature rich | 
+       | Use Func components (as possible)   | Maintain their own private data - state|
+       | Absence of 'this' keyword |  Complex UI logic |
+       | Solution without using state | Provide lifecycle hooks |
+       | Mainly responsible for the UI	| Stateful / Smart / Container|
+       | Stateless/ Dumb/ Presentational | |
+       
+   * JSX 
+        >> JavaScript XML (JSX) - Extension to the JavaScript langugage syntax.
+        >> 
+        >> Write XML-like code for elements and components
+        >> 
+        >> JSX tags have a tag name, attributes, and children
+        >> 
+        >> JSX is not a necessity to write React application
+        >> 
+        >> JSX makes your react code simpler and elegant
+        >> 
+        >> JSX ultimately transpiles to pure JavaScript which is understood by the browsers. 
+        >>    
+       
+   ## React Practical 
      * [Icons](https://react-icons.github.io/react-icons/icons?name=md)
       >> Command: >> npm install react-icons --save
       >>
@@ -52,26 +96,21 @@
       * [Chart](https://github.com/reactchartjs/react-chartjs-2)
       >> YARN >> yarn add react-chartjs-2 chart.js
       >> 
+      >> rcc  (Auto generation of code react in IntelliJ)
+      >> rce (Auto generation of code react in VSC)
 
    * React Advanced Topics
    * React Hooks
    * React Redux
   
   
-  Business Card: 
+ Project:  Business Card: 
    >> [Business Card Resource](https://stackblitz.com/edit/business-card-react) >> 
    >> [Business Card Resource2](https://codesandbox.io/s/fpm15?file=/src/index.js:7237-7245)
    >> [Business Card Resource3](https://npm.io/package/react-business-card)
    >> [Business Caed Resource4](https://libraries.io/npm/react-business-card)
    >> [Business CR5](https://askavy.com/react-card/)
-  1. What is React, MSA and SPA ?
-
-*  Key important elements: 
-   * Multi-Page Application (MPA) 
-   * Single-Page Appication (SPA)
-   * Document Object Module(DOM)
  
-  
  
  
  ## 3. Typescript
