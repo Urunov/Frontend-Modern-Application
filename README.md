@@ -70,36 +70,41 @@
         >>    
        
    ## React Practical 
-     * [Icons](https://react-icons.github.io/react-icons/icons?name=md)
-      >> Command: >> npm install react-icons --save
-      >>
-      >> YARN >> yarn add react-icons
-     * [Toast Notifications](https://github.com/fkhadra/react-toastify)
-      >> Yarn >> yarn add react-tostify
-     * [React Modal](https://github.com/reactjs/react-modal)
-      >> Yarn >> yarn add react-modal
-      >> 
-      >> Style-ReactModal>> [link](https://reactcommunity.org/react-modal/)
-     * Tooltip
-      >> YARN>> yarn add '@tippy.js/react'
-     * [Credit-Card](https://github.com/amarofashion/react-credit-cards)  
-     ![Screen Shot 2021-04-29 at 6 21 12 PM](https://user-images.githubusercontent.com/11626327/116529255-b622ad80-a917-11eb-9c5e-769302b0b406.png)
+   * [Icons](https://react-icons.github.io/react-icons/icons?name=md)
+    >> Command: >> npm install react-icons --save
+    >>
+    >> YARN >> yarn add react-icons
+   * [Toast Notifications](https://github.com/fkhadra/react-toastify)
+    >> Yarn >> yarn add react-tostify
+   * [React Modal](https://github.com/reactjs/react-modal)
+    >> Yarn >> yarn add react-modal
+    >> 
+    >> Style-ReactModal>> [link](https://reactcommunity.org/react-modal/)
+   * Tooltip
+    >> YARN>> yarn add '@tippy.js/react'
+   * [Credit-Card](https://github.com/amarofashion/react-credit-cards)  
+   ![Screen Shot 2021-04-29 at 6 21 12 PM](https://user-images.githubusercontent.com/11626327/116529255-b622ad80-a917-11eb-9c5e-769302b0b406.png)
 
-      >> YARN >> yarn add react-credit-cards
-      * [MDX-DESC-Presentation](https://github.com/jxnblk/mdx-deck)
-      >> 
-      >> YARN>> yarn add -D mdx-deck
-      * [React-Player](https://github.com/cookpete/react-player)
-      >> YARN >> yarn add react-player
-      * [Loading](https://github.com/davidhu2000/react-spinners)
-      >> YARN >> yarn add react-spinners
-      * [Chart](https://github.com/reactchartjs/react-chartjs-2)
-      >> YARN >> yarn add react-chartjs-2 chart.js
-      >> 
-      >> rcc  (Auto generation of code react in IntelliJ)
-      >> rce (Auto generation of code react in VSC)
+   >> YARN >> yarn add react-credit-cards
+   * [MDX-DESC-Presentation](https://github.com/jxnblk/mdx-deck)
+   >> 
+   >> YARN>> yarn add -D mdx-deck
+   * [React-Player](https://github.com/cookpete/react-player)
+   >> YARN >> yarn add react-player
+   * [Loading](https://github.com/davidhu2000/react-spinners)
+     >> YARN >> yarn add react-spinners
+     * [Chart](https://github.com/reactchartjs/react-chartjs-2)
+     >> YARN >> yarn add react-chartjs-2 chart.js
+     >> 
+     >> rcc  (Auto generation of code react in IntelliJ)
+     >> rce (Auto generation of code react in VSC)
 
    * React Advanced Topics
+   >> List and Key
+      >> Keys give the elements a stable identity
+     >> Keys help React identity which items have changed, are added, or are removed.
+     >> Help in efficient update of the user interface.
+
    * React Hooks
    * React Redux
   
