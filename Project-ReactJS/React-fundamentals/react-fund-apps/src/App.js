@@ -7,6 +7,9 @@ import Counter from "./component/Counter";
 import Multiplation from "./component/Multiplation";
 import FunctionClick from "./component/FunctionClick";
 import ClassClick from "./component/ClassClick";
+import EventHandler from "./component/EventHandler";
+import UserGreeting from "./component/UserGreeting";
+import NameList from "./component/NameList";
 
 function App() {
 
@@ -14,14 +17,21 @@ function App() {
   return (
     <div className="App">
 
+
+        <NameList/>
+        {/*<UserGreeting/>*/}
+
+        {/*<ParentComponents/>*/}
+
         {/*<Multiplation/>*/}
         {/*<Counter/>*/}
         {/*<Message/>*/}
 
+        {/*<EventHandler/>*/}
 
-        <Greet name="Bruce" heroName="Batman" />
-        <FunctionClick/>
-        <ClassClick/>
+        {/*<Greet name="Bruce" heroName="Batman" />*/}
+        {/*<FunctionClick/>*/}
+        {/*<ClassClick/>*/}
         {/*    <p>this is children props </p>*/}
         {/*</Greet>*/}
       {/*<Greet name="Hamdamboy" heroName="Superman"/>*/}

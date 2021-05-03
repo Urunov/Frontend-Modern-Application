@@ -1,9 +1,10 @@
 import './App.css';
-import InputForm from 'components/InputForm'
-function App() {
+import Business from "./component/Business";
+
+function App(){
   return (
     <div className="App">
-      <InputForm/>
+      <Business/>
    
     </div>
   );
