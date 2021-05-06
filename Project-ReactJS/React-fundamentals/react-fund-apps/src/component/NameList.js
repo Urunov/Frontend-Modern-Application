@@ -36,6 +36,7 @@ function NameList(props) {
         )
     return <div>{personList}</div>
 
+        
 
     // const personList = persons.map(
     //     persons => (

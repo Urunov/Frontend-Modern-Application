@@ -10,6 +10,7 @@ import ClassClick from "./component/ClassClick";
 import EventHandler from "./component/EventHandler";
 import UserGreeting from "./component/UserGreeting";
 import NameList from "./component/NameList";
+import NameListIndex from "./component/NameListIndex";
 
 function App() {
 
@@ -17,8 +18,8 @@ function App() {
   return (
     <div className="App">
 
-
-        <NameList/>
+        <NameListIndex/>
+        {/*<NameList/>*/}
         {/*<UserGreeting/>*/}
 
         {/*<ParentComponents/>*/}
