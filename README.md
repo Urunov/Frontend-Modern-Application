@@ -104,6 +104,16 @@
       >> Keys give the elements a stable identity
      >> Keys help React identity which items have changed, are added, or are removed.
      >> Help in efficient update of the user interface.
+  
+## React Lifecycle
+    Mounting - When an instance of a component is being created and inserted into the DOM
+       >> constructor, static getDerivedStateFromProps, render and componentDidMount
+    Updating - When a component is being re-rendered a result qof changes to either its props or state
+       >> static getDerivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate and componentDidUpdate 
+    Unmounting - When a component is being remove from the DOM 
+       >> component Will Unmount
+    Error Handling - When there is an error during rendering, in a lifecycle method, or in the constructor of any child component
+       >> static getDrivedStateFromError and componentDidCatch
 
    * React Hooks
    * React Redux
