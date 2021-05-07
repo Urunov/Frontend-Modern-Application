@@ -106,18 +106,53 @@
      >> Help in efficient update of the user interface.
   
 ## React Lifecycle
-    Mounting - When an instance of a component is being created and inserted into the DOM
-       >> constructor, static getDerivedStateFromProps, render and componentDidMount
-    Updating - When a component is being re-rendered a result qof changes to either its props or state
-       >> static getDerivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate and componentDidUpdate 
-    Unmounting - When a component is being remove from the DOM 
-       >> component Will Unmount
-    Error Handling - When there is an error during rendering, in a lifecycle method, or in the constructor of any child component
-       >> static getDrivedStateFromError and componentDidCatch
-
-   * React Hooks
-   * React Redux
+  * (1) Mounting - When an instance of a component is being created and inserted into the DOM
+      >> constructor, static getDerivedStateFromProps, render and componentDidMount
+  * (2) Updating - When a component is being re-rendered a result qof changes to either its props or state
+      >> static getDerivedStateFromProps, shouldComponentUpdate, render, getSnapshotBeforeUpdate and componentDidUpdate 
+  * (3) Unmounting - When a component is being remove from the DOM 
+      >> component Will Unmount
+  * (4) Error Handling - When there is an error during rendering, in a lifecycle method, or in the constructor of any child component
+      >> static getDrivedStateFromError and componentDidCatch
+   
+  ### (2) Updating Lifecycle Methods: 
+  * static getDerivedStateFromProps(props, state)
+     >> Method is called every time a component is re-rendered 
+     >> Set the state
+     >> Do not cause side effects. EX: HTTP requests.
+     >> 
+ 
+  * shouldComponentUpdate(nextProps, nextState)
+     >> Dictates if the component should re-render or not 
+     >> Performance optimization
+     >> Do not cause side effects. Ex.HTTP requests. Calling the setState method
+     >> 
+  *  render()
+     >> Do not change state or interact with DOM or make ajax calls.
+     >> Only required method
+     >> Read props & state and return JSX
+     >> 
+  * getSnapshotBeforeUpdate(prevProps, prevState)
+     >> Called right before the changes from the virtual DOM are to be reflected in the DOM.
+     >> Cature some information from the DOM
+     >> Method will either return null or return a value. Returned value will be passed as the third parameter to the next method.
+     >> 
   
+  * componentDidUpdate(prevProps, prevState, snapshot)
+     >> Called after the render is finished in the re-render cycles
+     >> Cause side effects
+    
+  ## (3)componentWillUnmount()
+
+   * Method is invoked immediately before a components is unmounted and destoryed.
+   * Cancelling any network requests, removing event handlers, cancelling any subscriptions and also invalidating timers.
+   * Do not call the setState method
+ 
+  ## (4)ERROR handling Phase Methods
+
+   * static getDerivedStateFromError(error)
+   * componentDidCatch(error, info)
+-----
   
  Project:  Business Card: 
    >> [Business Card Resource](https://stackblitz.com/edit/business-card-react) >> 
