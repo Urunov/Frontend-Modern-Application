@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a371aeaf-214d-4c51-8efb-72e6e8c22738" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/.idea/card-comp-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/src/components/CardComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card-company/fullstack/card-comp-app/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/lifecycle/UpdateLifeCycleB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/src/components/CardComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../card-company/card-comp-app/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-ReactJS/React-fundamentals2/upgrade-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-ReactJS/React-fundamentals2/upgrade-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/lifecycle/UpdateLifeCycleA.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/lifecycle/UpdateLifeCycleA.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="d1pmjp8a" />
+  </component>
+  <component name="ProjectId" id="1sEnPthHbetVTiC3MqXb6oRvxwl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ReactApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-react-nosql.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.djamware.react.ReactApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a371aeaf-214d-4c51-8efb-72e6e8c22738" name="Default Changelist" comment="" />
+      <created>1620446598051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620446598051</updated>
+      <workItem from="1620446601011" duration="4558000" />
+      <workItem from="1620536715855" duration="1187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

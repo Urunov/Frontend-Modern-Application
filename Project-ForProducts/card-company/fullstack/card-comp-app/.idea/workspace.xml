@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2daab0c-5d11-48dc-8d90-ebb87dcd329f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/card-comp-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/java/com/urunov/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/java/com/urunov/demo/controllers/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/java/com/urunov/demo/models/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/java/com/urunov/demo/repositories/ContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/static/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/static/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/static/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/static/static/css/main.dbb83339.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/static/static/css/main.dbb83339.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/static/static/js/main.f5334da4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/main/resources/static/static/js/main.f5334da4.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/back/src/test/java/com/urunov/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/.idea/front.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/.idea/springreact.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/components/Create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/components/Edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/components/Show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/registerServiceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-mongo/front/springreact/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/frontend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/frontend/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/frontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/frontend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/frontend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/frontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../spring-react-nosql/frontend/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/lifecycle/UpdateLifeCycleB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/src/components/CardComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../card-comp-app/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Project-ReactJS/React-fundamentals2/upgrade-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/React-fundamentals2/upgrade-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/lifecycle/UpdateLifeCycleA.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/React-fundamentals2/upgrade-app/src/components/lifecycle/UpdateLifeCycleA.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="brvze4yu" />
+  </component>
+  <component name="ProjectId" id="1sCKDnASCP0ZoeJrqPSWoUX3pYZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2daab0c-5d11-48dc-8d90-ebb87dcd329f" name="Default Changelist" comment="" />
+      <created>1620371014071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620371014071</updated>
+      <workItem from="1620371016859" duration="1790000" />
+      <workItem from="1620535822868" duration="458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
