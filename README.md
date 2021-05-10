@@ -153,6 +153,24 @@
    * static getDerivedStateFromError(error)
    * componentDidCatch(error, info)
 -----
+  * Error Boundary
+  
+  
+ -----------
+ ## Higher Order Components (HOC) 
+  * A pattern where a function takes a component as an argument and returns a new component.
+   >> const NewComponent = higherOrderComponent(orginalComponent)
+   >> const EnhancedComponent = higherOrderComponent(orginalComponent)
+------
+## Render props
+  >> The term "render prop" refers to a technique for sharing code between React components using a prop whose value is a function.
+  >> 
+------
+## React: HTTP GET Request
+  >> jsonplaceholder.typicode.com
+  >> 
+
+  
   
  Project:  Business Card: 
    >> [Business Card Resource](https://stackblitz.com/edit/business-card-react) >> 
