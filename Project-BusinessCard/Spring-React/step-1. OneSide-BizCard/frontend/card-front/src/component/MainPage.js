@@ -5,8 +5,8 @@ class MainPage extends Component {
 
     constructor(props) {
         super(props);
-
         this.state ={
+            cardElements:[],
             errors:{},
         }
 
@@ -16,18 +16,17 @@ class MainPage extends Component {
 
     componentDidMount() {
             CardService.getCard().then((res) => {
-                this.setState({cardComponents: res.data})
+                this.setState({cardComponents: res.data});
+                console.log(this.state.cardElements);
             })
     }
 
     addCard=()=>{
-        // const {history} = this.props;
         this.props.history.push('/cards/add')
         console.log('list of cards');
     }
 
      listCard=()=>{
-         // const {history} = this.props;
          this.props.history.push('/cards')
          console.log('add card');
     }
@@ -37,7 +36,7 @@ class MainPage extends Component {
             <div>
                 <div className="d-grid gap-2 d-md-flex justify-content-md-end">
                     <button type="button" className="btn btn-outline-info" onClick={this.listCard}>Card List</button>
-                    <button type="button" className="btn btn-outline-primary" onClick={this.addCard}>Card Add</button>
+                    <button type="button" className="btn btn-outline-primary" onClick={this.addCard}> Create Card</button>
                 </div>
 
                 <div>

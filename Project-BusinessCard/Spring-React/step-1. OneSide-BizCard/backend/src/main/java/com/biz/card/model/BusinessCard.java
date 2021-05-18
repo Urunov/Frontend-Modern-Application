@@ -19,15 +19,17 @@ public class BusinessCard {
     private String name;
     private String lastName;
     private String address;
-    private String phone;
     private String email;
+    private String phone;
     private String website;
     private String position;
     private String mobilePhone;
-    private String specificJob; //
     private String fax;
     private String photoUrl; // Employee Photo
-/*
+    private String specificJob;
+
+
+    /*
     //    //back side(1)
     private String log;
     private String companyName;

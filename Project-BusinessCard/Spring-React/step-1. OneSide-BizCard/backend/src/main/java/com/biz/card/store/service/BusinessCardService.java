@@ -1,14 +1,14 @@
 package com.biz.card.store.service;
 
 import com.biz.card.model.BusinessCard;
-import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 import java.util.Optional;
 
-public interface BusinessCardsInter {
+public interface BusinessCardService {
     //
-     void create(BusinessCard businessCard);
+     BusinessCard create(BusinessCard businessCard);
      Optional<BusinessCard> retrieve(String cardId);
      List<BusinessCard> retrieveAll();
      void update(BusinessCard businessCard);

@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import axios from "axios";
+import ReactNotification from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
+import { store } from 'react-notifications-component';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class CreateCardComponents extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
 
         this.state = {
             name:'',
@@ -19,47 +23,27 @@ class CreateCardComponents extends Component {
             photoUrl:'',
             specificJob:''
         };
-             //
-             // this.changeNameHandler = this.changeNameHandler.bind(this);
-             // this.changeLastNameHandler = this.changeLastNameHandler.bind(this);
-             // this.changeEmailHandler = this.changeEmailHandler.bind(this);
-             // this.handleSubmit = this.handleSubmit.bind(this);
-
              this.main = this.main.bind(this);
              this.cardlist = this.cardlist.bind(this);
+
+             // preserve the initial state in a new object
+             this.baseState = this.state
     }
 
-
-   // cancel(){
-   //         this.props.history.push('/')
-   // }
-   //
-   //
-   //  changeNameHandler =(event) => {
-   //      this.setState({name: event.target.value})
-   //  }
-   //  changeLastNameHandler = (event) =>{
-   //      this.setState({lastName: event.target.value})
-   //  }
-   //  changeEmailHandler = (event) => {
-   //      this.setState({email: event.target.value})
-   //  }
-   //
-   //  changeAddressHandler = (event) => {
-   //      this.setState({address: event.target.value})
-   //  }
-   //
-   //  changePhoneHandler = (event) => {
-   //      this.setState({phone: event.target.value})
-   //  }
-   //
-   //  changeWebsiteHandler = (event) => {
-   //      this.setState({website: event.target.value})
-   //  }
-   //
-   //  changeSpecificJobHandler = (event) => {
-   //      this.setState({specificJob: event.target.value})
-   //  }
+    resetForm = () => {
+     store.addNotification({
+            title:"Canceled!",
+            message: "May think again",
+            type: "warning",
+            container: "top-center",
+            insert: "top",
+            dismiss: {
+                duration: 3000,
+                onScreen: true
+            }
+        });
+        this.setState(this.baseState);
+    }
 
     main() {
         this.props.history.push("/")
@@ -69,150 +53,139 @@ class CreateCardComponents extends Component {
         this.props.history.push("/cards")
     }
 
-    onChange =(e)=> {
+    onChange =(event)=> {
         const state = this.state
-        state[e.target.name] = e.target.value;
+        state[event.target.name] = event.target.value;
         this.setState(state);
     }
 
     handleSubmit = (event) => {
         event.preventDefault();
-        const {name, lastNam, address, email, phone, website, position, mobilePhone, fax, photoUrl,  specificJob} = this.state;
+        const {name, lastName, address, email, phone, website, position, mobilePhone, fax, photoUrl,  specificJob} = this.state;
 
-        // let cardB = {
-        //     name: this.state.name,
-        //     lastName: this.state.lastName,
-        //     email: this.state.email,
-        //     address: this.state.address,
-        //     phone: this.state.phone,
-        //     website: this.state.website,
-        //     specificJob: this.state.specificJob
-        //
-        // };
-       // console.log('cards => ' + JSON.stringify(cardB));
-
-        // CardService.createCard(cardB).then(res =>
-        //     this.props.history.push('/cards/add'));
-
-        axios.post('http://localhost:8080/cards/add', {name, lastNam, address, email, phone, website, position, mobilePhone, fax, photoUrl,  specificJob})
+        axios.post('http://localhost:8080/cards/add', {name, lastName, address, email, phone, website, position, mobilePhone, fax, photoUrl,  specificJob})
             .then(() => {
-                this.props.history.push("/")
+                this.props.history.push("/cards/add")
             });
     }
 
+    handleOnClickDefault = () => {
+        store.addNotification({
+            title:"New Card Add",
+            message: "You are Great",
+            type: "success",
+            container: "top-right",
+            insert: "top",
+            dismiss: {
+                duration: 5000,
+                onScreen: true
+            }
+        });
+    }
+
+    fileSelectHandler = (event) => {
+
+        this.setState({
+            selectFile: event.target.files[0]
+        })
+        console.log(event.target.files[0]);
+    }
+
+    fileUploadHandler = () =>{
+        const fd = new FormData();
+        fd.append('image', this.state.selectFile, this.state.selectFile.name);
+
+        axios.post('gs://business-card-9343c.appspot.com/images/', fd, {
+            onUploadProgress: progressEvent => {
+               console.log('Upload Progress: ' + Math.round(progressEvent.loaded /progressEvent.total * 100) + '%');
+            }
+        })
+            .then(res => {
+            console.log(res);
+        });
+    }
+
+
     render() {
-        const {name, lastNam, address, email, phone, website, position, mobilePhone, fax, photoUrl,  specificJob} = this.state;
+        const {name, lastName, address, email, phone, website, position, mobilePhone, fax, photoUrl,  specificJob} = this.state;
         return (
             <div>
+                <ReactNotification/>
+
                 <div className="d-grid gap-2 d-md-flex justify-content-md-end">
                     <button type="button" className="btn btn-outline-primary" onClick={this.cardlist}>Card List</button>
                     <button type="button" className="btn btn-outline-success" onClick={this.main}>Home</button>
                 </div>
 
                 <div className="container">
-                    <h3 className="text-center"> Adding Business Card</h3>
+                    <h3 className="text-center"> Create Business Card</h3>
                     <div className="row">
                         <div className="card col-md-4 offset-md-3 offset-md-3">
 
                             <div className="card-body">
-
-                                {/*<form>*/}
-                                {/*    <div className="form-group">*/}
-                                {/*        <input placeholder="Name" name="name" className="form-control"*/}
-                                {/*               value={this.state.name} onChange={this.changeNameHandler}/>*/}
-                                {/*    </div>*/}
-                                {/*    <div className="form-group">*/}
-                                {/*        <input placeholder="LastName" name="lastName" className="form-control"*/}
-                                {/*               value={this.state.lastName} onChange={this.changeLastNameHandler}/>*/}
-
-                                {/*    </div>*/}
-                                {/*    <div className="form-group">*/}
-                                {/*        <input placeholder="Address" name="address" className="form-control"*/}
-                                {/*               value={this.state.address} onChange={this.changeAddressHandler}/>*/}
-
-                                {/*    </div>*/}
-
-                                {/*    <div className="form-group">*/}
-                                {/*        <input placeholder="Phone" name="phone" className="form-control"*/}
-                                {/*               value={this.state.phone} onChange={this.changePhoneHandler}/>*/}
-
-                                {/*    </div>*/}
-
-
-                                {/*    <div className="form-group">*/}
-                                {/*        <input placeholder="Email" name="Email" className="form-control"*/}
-                                {/*               value={this.state.email} onChange={this.changeEmailHandler}/>*/}
-                                {/*    </div>*/}
-
-                                {/*    <div className="form-group">*/}
-                                {/*        <input placeholder="Website" name="website" className="form-control"*/}
-                                {/*               value={this.state.website} onChange={this.changeWebsiteHandler}/>*/}
-
-                                {/*    </div>*/}
-
-                                {/*    <div className="form-group">*/}
-                                {/*        <input placeholder="SpecificJob" name="specificJob" className="form-control"*/}
-                                {/*               value={this.state.specificJob} onChange={this.changeSpecificJobHandler}/>*/}
-
-                                {/*    </div>*/}
-
-                                {/*    <button className="btn btn-success" onClick={this.handleSubmit}> Save </button>*/}
-                                {/*    <button className="btn btn-danger" onClick={this.cancel.bind(this)} style={{margin: "10px"}}> Cancel </button>*/}
-                                {/*</form>*/}
-
-
                                 <form onSubmit={this.handleSubmit}>
                                     <div className="form-group">
                                         <input type="text" className="form-control" name="name" value={name}
                                                onChange={this.onChange} placeholder="Name"/>
                                     </div>
                                     <div className="form-group">
+                                        <input type="text" className="form-control" name="lastName" value={lastName}
+                                               onChange={this.onChange} placeholder="LastName"/>
+                                    </div>
+
+                                    <div className="form-group">
                                         <input type="text" className="form-control" name="address" value={address}
                                                onChange={this.onChange} placeholder="Address"/>
                                     </div>
+                                    <div className="form-group">
+                                        <input type="text" className="form-control" name="email" value={email}
+                                               onChange={this.onChange} placeholder="Email"/>
+                                    </div>
+                                    <div className="form-group">
+                                        <input type="text" className="form-control" name="phone" value={phone}
+                                               onChange={this.onChange} placeholder="Phone"/>
+                                    </div>
+
                                     <div className="form-group">
                                         <input type="text" className="form-control" name="website" value={website}
                                                onChange={this.onChange} placeholder="Website"/>
                                     </div>
                                     <div className="form-group">
-                                        <input type="text" className="form-control" name="phone" value={phone}
-                                               onChange={this.onChange} placeholder="Phone Number"/>
+                                        <input type="text" className="form-control" name="position" value={position}
+                                               onChange={this.onChange} placeholder="Position"/>
                                     </div>
                                     <div className="form-group">
-                                        <input type="email" className="form-control" name="email" value={email}
-                                               onChange={this.onChange} placeholder="Email Address"/>
+                                        <input type="text" className="form-control" name="mobilePhone" value={mobilePhone}
+                                               onChange={this.onChange} placeholder="Mobile Phone"/>
                                     </div>
-                                    <button className="btn btn-danger" style={{margin: "10px"}}> Cancel </button>
-                                    <button className="btn btn-success">Store</button>
+                                    <div className="form-group">
+                                        <input type="text" className="form-control" name="fax" value={fax}
+                                               onChange={this.onChange} placeholder="Fax"/>
+                                    </div>
+                                    <div className="form-group">
 
-                                    {/*    <button className="btn btn-success" onClick={this.handleSubmit}> Save </button>*/}
-                                    {/*    <button className="btn btn-danger" onClick={this.cancel.bind(this)} style={{margin: "10px"}}> Cancel </button>*/}
+                                        {/*<input type="text" className="form-control" name="photoUrl" value={photoUrl}*/}
+                                        {/*       onChange={this.onChange} placeholder="PhotoUrl"/>*/}
 
+                                        <input type="file" className="form-control" name="photoUrl" value={photoUrl}
+                                               onChange={this.fileSelectHandler}  />
+                                    </div>
+                                    <div className="form-group">
+                                        <input type="text" className="form-control" name="specificJob" value={specificJob}
+                                               onChange={this.onChange} placeholder="SpecificJob"/>
+                                    </div>
+
+                                    <button className="btn btn-danger" style={{margin: "10px"}} onClick={this.resetForm}> Cancel </button>
+                                    <button className="btn btn-success m-1" onClick={this.handleOnClickDefault} >Store</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-                {/*<div className = "cardDivX">*/}
-                {/*    <div className = "cardX">*/}
-                {/*        <h1 className = "cardNameX">{this.state.name} {this.state.lastName}</h1>*/}
-                {/*        <h2 className = "cardCompanyNameX">{this.state.email}</h2>*/}
-                {/*        <hr />*/}
-                {/*        <p className = "cardAddressX">{this.state.address}</p>*/}
-                {/*        <p className = "cardPhoneNumber">{this.state.phone}</p>*/}
-                {/*        <hr />*/}
-                {/*        <p className = "cardEmailX">{this.state.email}</p>*/}
-                {/*        <p className = "cardWebsite">{this.state.website}</p>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-
             </div>
         );
+
     }
 }
-
 
 export default CreateCardComponents;

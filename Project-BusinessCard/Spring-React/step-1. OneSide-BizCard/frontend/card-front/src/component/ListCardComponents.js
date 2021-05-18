@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import CardService from "../services/CardService";
+import {Link} from "react-router-dom";
+import axios from "axios";
 
 class ListCardComponents extends Component {
 
@@ -8,7 +9,7 @@ class ListCardComponents extends Component {
 
         this.state = {
             cardComponents: []
-        }
+        };
 
         this.addCard = this.addCard.bind(this);
         this.main = this.main.bind(this);
@@ -16,14 +17,15 @@ class ListCardComponents extends Component {
 
     componentDidMount() {
 
-        CardService.getCard().then((res) => {
-            this.setState({cardComponents: res.data})
-        })
+        // CardService.getCard().then((res) => {
+        //     this.setState({cardComponents: res.data})
+        // })
 
-        // axios.get("http://localhost:8080/cards")
-        //     .then((response) => {
-        //         this.setState({cardComponents: response.data})
-        //     })
+        axios.get("http://localhost:8080/cards")
+            .then(response => {
+                this.setState({cardComponents: response.data});
+                console.log(this.state.cardComponents);
+         });
     }
 
     addCard(){
@@ -33,21 +35,26 @@ class ListCardComponents extends Component {
     main(){
         this.props.history.push('/')
     }
+   showMe(){
+        this.props.history.push('/cards/show')
 
+   }
     render() {
         return (
-            <div>
+
+            <div className="container">
                 <h2 className="text-center"> Business Card List </h2>
 
                 <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button type="button" className="btn btn-outline-primary" onClick={this.addCard}>Card Add</button>
+                    <button type="button" className="btn btn-outline-primary" onClick={this.addCard}> Create Card</button>
                     <button type="button" className="btn btn-outline-success" onClick={this.main}>Home</button>
                 </div>
 
                 <br/>
                 <br/>
 
-                     <div className="row">
+
+                    <div className="row">
                         <table className= "table table-striped table-bordered">
 
                             <thead>
@@ -62,18 +69,24 @@ class ListCardComponents extends Component {
                                 <th> MobilePhone</th>
                                 <th> fax</th>
                                 <th> Photo</th>
-                                <th> Action</th>
+                                <th> SpecificJob</th>
+                                {/*<th> Action</th>*/}
                             </tr>
                             </thead>
+
                             <tbody>
                             {
                                 this.state.cardComponents.map(
                                     card =>
-                                        <tr key={card.id}>
-                                            <td>{card.name}</td>
+                                        <tr>
+                                            <td><Link to={`/show/${card.id}`}>{card.name}
+                                                { console.log(card.id)}
+                                            </Link></td>
+
                                             <td>{card.lastName}</td>
                                             <td>{card.address}</td>
                                             <td>{card.email}</td>
+                                            <td>{card.phone}</td>
                                             <td>{card.website}</td>
                                             <td>{card.position}</td>
                                             <td>{card.mobilePhone}</td>
@@ -81,6 +94,9 @@ class ListCardComponents extends Component {
                                             <td>{card.photoUrl}</td>
                                             <td>{card.specificJob}</td>
 
+                                            {/*<div className="d-grid gap-2 d-md-flex justify-content-md-end">*/}
+                                            {/*    <button type="button" className="btn btn-outline-primary" onClick={this.showMe}>Show</button>*/}
+                                            {/*</div>*/}
                                         </tr>
                                 )
                             }

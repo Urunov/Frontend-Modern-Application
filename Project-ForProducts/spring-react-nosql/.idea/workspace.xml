@@ -5,67 +5,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a371aeaf-214d-4c51-8efb-72e6e8c22738" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardControllerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/model/BusinessCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/logic/BusinessCardServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/repository/BusinessCardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/service/BusinessCardsInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/util/BusinessCardDuplicationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/util/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/schema.script" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/static/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/static/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/static/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/static/static/css/main.dbb83339.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/static/static/css/main.dbb83339.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/static/static/js/main.f5334da4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/resources/static/static/js/main.f5334da4.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/CreateCardComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/ListCardComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/ShowMe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/images/cardPretty1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/images/cardPretty2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/images/qr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/images/saram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/images/saram2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/services/CardService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/services/FootComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/services/HeadComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/setupProxy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-2. TwoSide-BizCard/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-2. TwoSide-BizCard/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-2. TwoSide-BizCard/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-2. TwoSide-BizCard/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-2. TwoSide-BizCard/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-2. TwoSide-BizCard/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-2. TwoSide-BizCard/.idea/modules/step-2. TwoSide-BizCard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-2. TwoSide-BizCard/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-2. TwoSide-BizCard/frontend/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/Show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/ShowCardComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/UpdateCardComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/4.5.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/4.5.1/fileContent/annotation-processors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/4.5.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.idea/modules/step-3. Update-BizCard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-3. Update-BizCard/frontend/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileContent/annotation-processors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/build/classes/java/main/com/biz/card/ReactApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/build/classes/java/main/com/biz/card/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/build/classes/java/main/com/biz/card/controllers/ContactControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/build/classes/java/main/com/biz/card/models/Contact.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/build/classes/java/main/com/biz/card/store/logic/ContactLogic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/build/classes/java/main/com/biz/card/store/repository/ContactRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/build/classes/java/main/com/biz/card/store/service/ContactService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/build/resources/main/schema.script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/controllers/ContactControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/store/logic/ContactLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/store/service/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/resources/schema.script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/frontend/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/frontend/src/components/MainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/frontend/src/service/images/cardPretty1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/frontend/src/service/images/cardPretty2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/frontend/src/service/images/qr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/frontend/src/service/images/saram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/frontend/src/service/images/saram2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/frontend/src/service/styleUpgrade/FootComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/frontend/src/service/styleUpgrade/HeadComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/djamware/react/ReactApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/djamware/react/controllers/ContactController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/djamware/react/models/Contact.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/djamware/react/repositories/ContactRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/mystorybooks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/src/components/MainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/cardPretty1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/cardPretty2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/qr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/saram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/saram2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/.idea/Fundamentals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/project-Fundamentals/.idea/project-Fundamentals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/project-Fundamentals/step-1/let.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/project-Fundamentals/step-1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/project-Fundamentals/step-1/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/project-Fundamentals/step-2.ProjectSample/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Fundamentals/project-Fundamentals/step-2.ProjectSample/using-ts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardControllerInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/model/BusinessCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/model/BusinessCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/logic/BusinessCardServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/logic/BusinessCardLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/repository/BusinessCardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/repository/BusinessCardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/service/BusinessCardsInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/service/BusinessCardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/CreateCardComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/CreateCardComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/ListCardComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/ListCardComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/src/component/ShowMe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-1. OneSide-BizCard/frontend/card-front/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-Storybook/react-storybook-v6/mystorybooks/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,17 +155,6 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReactApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-react-nosql.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.djamware.react.ReactApplication" />
@@ -138,7 +176,9 @@
       <workItem from="1620697535252" duration="2364000" />
       <workItem from="1620700854663" duration="13545000" />
       <workItem from="1620723241915" duration="2764000" />
-      <workItem from="1620893776113" duration="3178000" />
+      <workItem from="1620893776113" duration="18253000" />
+      <workItem from="1621057409915" duration="4876000" />
+      <workItem from="1621167723375" duration="720000" />
     </task>
     <servers />
   </component>
@@ -159,17 +199,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/src/components/Create.js</url>
-          <line>60</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

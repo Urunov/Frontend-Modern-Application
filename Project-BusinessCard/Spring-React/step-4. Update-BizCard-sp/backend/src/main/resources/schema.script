@@ -1,0 +1,14 @@
+
+use cards;
+db.createCard(
+{
+    user: "cards",
+    pwd: "cards",
+    roles:
+        [
+            {
+               role: "readWrite", db: "cards"
+            }
+        ]
+    }
+   );

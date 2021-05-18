@@ -2,7 +2,8 @@ package com.biz.card.store.logic;
 
 import com.biz.card.model.BusinessCard;
 import com.biz.card.store.repository.BusinessCardRepository;
-import com.biz.card.store.service.BusinessCardsInter;
+import com.biz.card.store.service.BusinessCardService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -10,20 +11,17 @@ import java.util.Optional;
 
 
 @Service
-public class BusinessCardServices implements BusinessCardsInter {
+public class BusinessCardLogic implements BusinessCardService {
     //
 
-    private final BusinessCardRepository cardRepository;
-
-    public BusinessCardServices(BusinessCardRepository cardRepository) {
-        this.cardRepository = cardRepository;
-    }
+    @Autowired
+    BusinessCardRepository cardRepository;
 
 
     @Override
-    public void create(BusinessCard businessCard) {
+    public BusinessCard create(BusinessCard businessCard) {
         //
-        cardRepository.save(businessCard);
+        return cardRepository.save(businessCard);
     }
 
     @Override
@@ -38,7 +36,6 @@ public class BusinessCardServices implements BusinessCardsInter {
 
     @Override
     public void update(BusinessCard businessCard) {
-
 
     }
 
