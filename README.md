@@ -153,7 +153,34 @@
    * static getDerivedStateFromError(error)
    * componentDidCatch(error, info)
 -----
+  * Error Boundary
   
+  
+ -----------
+ ## Higher Order Components (HOC) 
+  * A pattern where a function takes a component as an argument and returns a new component.
+   >> const NewComponent = higherOrderComponent(orginalComponent)
+   >> const EnhancedComponent = higherOrderComponent(orginalComponent)
+------
+## Render props
+  >> The term "render prop" refers to a technique for sharing code between React components using a prop whose value is a function.
+  >> 
+------
+## React: HTTP GET Request
+  >> jsonplaceholder.typicode.com
+  >> 
+# 3. Typescript
+What is Typescript and why do we use it ?
+ >> node install -g
+ >> npm install -g typescript [yarn add typescript] 
+ >> version check: rsc --v
+ >> 
+ 
+ ## 4. MobX
+ ## 5. Material-UI
+ 
+ 
+ 
  Project:  Business Card: 
    >> [Business Card Resource](https://stackblitz.com/edit/business-card-react) >> 
    >> [Business Card Resource2](https://codesandbox.io/s/fpm15?file=/src/index.js:7237-7245)
@@ -163,12 +190,6 @@
  
  
  
- ## 3. Typescript
- ## 4. MobX
- ## 5. Material-UI
- 
- 
-
 
 
 
