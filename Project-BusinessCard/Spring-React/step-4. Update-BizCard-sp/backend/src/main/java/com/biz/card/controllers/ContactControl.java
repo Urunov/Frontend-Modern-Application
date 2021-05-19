@@ -34,7 +34,7 @@ public class ContactControl {
         return contactService.retrieveAll();
     }
 
-    @RequestMapping(method=RequestMethod.POST, value="/create")
+    @RequestMapping(method=RequestMethod.POST, value="/contacts/create")
     public Contact Store(@RequestBody Contact contact){
         contact = contactService.create(contact);
         return contact;

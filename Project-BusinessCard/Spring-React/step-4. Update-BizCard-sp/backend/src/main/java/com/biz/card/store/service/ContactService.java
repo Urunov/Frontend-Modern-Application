@@ -8,11 +8,11 @@ import java.util.Optional;
 public interface ContactService {
     //
     Contact create(Contact contact);
-    Contact retrieveByName(String name);
     Optional<Contact> retrieve(String id);
     List<Contact> retrieveAll();
     Contact update(String id, Contact contact);
     void delete(String id);
     boolean exists(String id);
+    Contact retrieveByName(String name);
 
 }

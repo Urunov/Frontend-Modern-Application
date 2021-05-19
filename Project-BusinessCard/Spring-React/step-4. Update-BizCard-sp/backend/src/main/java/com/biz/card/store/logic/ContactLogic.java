@@ -17,7 +17,6 @@ public class ContactLogic implements ContactService {
 
     @Override
     public Contact create(Contact contact) {
-
         return contactRepository.save(contact);
     }
 

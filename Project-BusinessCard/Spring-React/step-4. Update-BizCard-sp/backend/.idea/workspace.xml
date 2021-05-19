@@ -5,116 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67fad685-4bdf-4e92-b731-f22a84a1ca57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/Show.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/ShowCardComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/UpdateCardComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/4.5.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/4.5.1/fileContent/annotation-processors.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/4.5.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.idea/modules/step-3. Update-BizCard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../step-3. Update-BizCard/frontend/.idea/frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/annotation-processors.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/ReactApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/controllers/ContactControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/models/Contact.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/store/logic/ContactLogic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/store/repository/ContactRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/store/service/ContactService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/schema.script" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biz/card/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biz/card/controllers/ContactControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biz/card/store/logic/ContactLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/biz/card/store/service/ContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.script" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/.idea/frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/components/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/service/images/cardPretty1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/service/images/cardPretty2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/service/images/qr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/service/images/saram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/service/images/saram2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/service/styleUpgrade/FootComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/service/styleUpgrade/HeadComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-ForProducts/spring-react-nosql/build/classes/java/main/com/djamware/react/ReactApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-ForProducts/spring-react-nosql/build/classes/java/main/com/djamware/react/controllers/ContactController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-ForProducts/spring-react-nosql/build/classes/java/main/com/djamware/react/models/Contact.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-ForProducts/spring-react-nosql/build/classes/java/main/com/djamware/react/repositories/ContactRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/mystorybooks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/src/components/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/cardPretty1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/cardPretty2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/qr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/saram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/src/images/saram2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/.idea/Fundamentals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/project-Fundamentals/.idea/project-Fundamentals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/project-Fundamentals/step-1/let.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/project-Fundamentals/step-1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/project-Fundamentals/step-1/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/project-Fundamentals/step-2.ProjectSample/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Fundamentals/project-Fundamentals/step-2.ProjectSample/using-ts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/controller/BusinessCardControllerInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/model/BusinessCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/model/BusinessCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/logic/BusinessCardServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/logic/BusinessCardLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/repository/BusinessCardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/repository/BusinessCardRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/service/BusinessCardsInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/backend/src/main/java/com/biz/card/store/service/BusinessCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/CreateCardComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/CreateCardComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/ListCardComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/ListCardComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/src/component/ShowMe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../step-1. OneSide-BizCard/frontend/card-front/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Project-ForProducts/spring-react-nosql/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Project-ForProducts/spring-react-nosql/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/.idea/conditional-rendering.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/src/components/Conditonal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-ReactJS/conditional-rendering/conditional-app/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Book=FullStack/.idea/Book=FullStack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Book=FullStack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Book=FullStack/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Book=FullStack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Book=FullStack/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Book=FullStack/fullstack-project-typescript/Greeting.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Project-TypeScript/Book=FullStack/fullstack-project-typescript/GreetingReact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/controllers/ContactControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/controllers/ContactControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/models/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/models/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/store/logic/ContactLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/store/logic/ContactLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/store/service/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/biz/card/store/service/ContactService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biz/card/controllers/ContactControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biz/card/controllers/ContactControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biz/card/store/logic/ContactLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biz/card/store/logic/ContactLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/biz/card/store/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/biz/card/store/service/ContactService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Project-ForProducts/spring-react-nosql/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Project-ForProducts/spring-react-nosql/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Project-Storybook/react-storybook-v6/mystorybooks/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,19 +112,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReactApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="backend.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.biz.card.ReactApplication" />
@@ -208,6 +131,7 @@
       <updated>1621212051933</updated>
       <workItem from="1621212054024" duration="2724000" />
       <workItem from="1621214981321" duration="10780000" />
+      <workItem from="1621319698336" duration="4472000" />
     </task>
     <servers />
   </component>

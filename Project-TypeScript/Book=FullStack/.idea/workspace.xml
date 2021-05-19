@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a371aeaf-214d-4c51-8efb-72e6e8c22738" name="Default Changelist" comment="">
+    <list default="true" id="defc5d79-0680-4d2c-a52b-7753fb388f6b" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/.idea/conditional-rendering.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/.idea/misc.xml" afterDir="false" />
@@ -22,20 +19,19 @@
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/src/App.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/src/App.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/src/components/Conditonal.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/src/index.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/src/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/src/logo.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/src/reportWebVitals.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/src/setupTests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Project-ReactJS/conditional-rendering/conditional-app/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Book=FullStack/.idea/Book=FullStack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Book=FullStack/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Book=FullStack/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Book=FullStack/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Book=FullStack/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Book=FullStack/fullstack-project-typescript/Greeting.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project-TypeScript/Book=FullStack/fullstack-project-typescript/GreetingReact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Book=FullStack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack-project-typescript/Greeting.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack-project-typescript/GreetingReact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
@@ -50,50 +46,52 @@
       <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/controllers/ContactControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/controllers/ContactControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/store/logic/ContactLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/store/logic/ContactLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/store/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-BusinessCard/Spring-React/step-4. Update-BizCard-sp/backend/src/main/java/com/biz/card/store/service/ContactService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project-ForProducts/spring-react-nosql/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project-ForProducts/spring-react-nosql/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="d1pmjp8a" />
+    <option name="directoryName" value="rd2rgh0s" />
   </component>
-  <component name="ProjectId" id="1sEnPthHbetVTiC3MqXb6oRvxwl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1sjyn8YhPiDt64QfeW6mIHRbSs9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunManager">
-    <configuration name="ReactApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-react-nosql.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.djamware.react.ReactApplication" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,19 +100,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a371aeaf-214d-4c51-8efb-72e6e8c22738" name="Default Changelist" comment="" />
-      <created>1620446598051</created>
+      <changelist id="defc5d79-0680-4d2c-a52b-7753fb388f6b" name="Default Changelist" comment="" />
+      <created>1621400459168</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1620446598051</updated>
-      <workItem from="1620446601011" duration="4558000" />
-      <workItem from="1620536715855" duration="1187000" />
-      <workItem from="1620697535252" duration="2364000" />
-      <workItem from="1620700854663" duration="13545000" />
-      <workItem from="1620723241915" duration="2764000" />
-      <workItem from="1620893776113" duration="18253000" />
-      <workItem from="1621057409915" duration="4876000" />
-      <workItem from="1621167723375" duration="720000" />
+      <updated>1621400459168</updated>
+      <workItem from="1621400460925" duration="4103000" />
     </task>
     <servers />
   </component>
@@ -131,9 +122,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
