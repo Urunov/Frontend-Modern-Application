@@ -176,6 +176,29 @@ What is Typescript and why do we use it ?
  >> version check: rsc --v
  >> 
  
+ # String Format
+      String.Format():
+      var id = image.GetId()
+      String.Format("image_{0}.jpg", id)
+      output: "image_2db5da20-1c5d-4f1a-8fd4-b41e34c8c5b5.jpg";
+      Specifier available!
+
+      var value = String.Format("{0:L}", "APPLE"); //output "apple"
+
+      value = String.Format("{0:U}", "apple"); // output "APPLE"
+
+      value = String.Format("{0:d}", "2017-01-23 00:00"); //output "23.01.2017"
+
+
+      value = String.Format("{0:s}", "21.03.2017 22:15:01") //output "2017-03-21T22:15:01"
+
+      value = String.Format("{0:n}", 1000000);
+      //output "1.000.000"
+
+      value = String.Format("{0:00}", 1);
+      //output "01"
+
+
  ## 4. MobX
  ## 5. Material-UI
  
