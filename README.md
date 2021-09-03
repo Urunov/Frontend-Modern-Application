@@ -198,6 +198,31 @@ What is Typescript and why do we use it ?
       value = String.Format("{0:00}", 1);
       //output "01"
 
+----
+## TypeScript Static Methods and Properties [...](https://www.typescripttutorial.net/typescript-tutorial/typescript-static-methods-and-properties/)
+
+Static methods
+Similar to the static property, a static method is also shared across instances of the class. To declare a static method, you use the static keyword before the method name. For example:
+
+
+        class Employee {
+            private static headcount: number = 0;
+            constructor(
+                private firstName: string,
+                private lastName: string,
+                private jobTitle: string) {
+
+                Employee.headcount++;
+            }
+
+            public static getHeadcount() {
+                return Employee.headcount;
+            }
+        }
+
+
+## When to use static methods in TypeScript?
+
 
  ## 4. MobX
  ## 5. Material-UI
