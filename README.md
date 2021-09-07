@@ -254,8 +254,9 @@ From within a constructor, you can also use the this keyword to call another con
 
 
 -----
+  ## Get an object's class name at runtime [on Typescript](https://stackoverflow.com/questions/13613524/get-an-objects-class-name-at-runtime)
 
-
+---
 
 
  ## 4. MobX
