@@ -258,6 +258,14 @@ From within a constructor, you can also use the this keyword to call another con
 ---
 Understanding TypeScript’s type [notation](https://2ality.com/2018/04/type-notation-typescript.html)
 
+---
+## Install
+------
+brew install node
+
+
+---
+
  ## 4. MobX
  ## 5. Material-UI
  
